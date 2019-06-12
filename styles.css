@@ -9,5 +9,21 @@ html {
 }
 
 nav {
-    background-color: blue
+    background-color: blue;
+    margin-top: 10vh 0px;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: ;
+}
+
+nav a {
+    background-color: limegreen;
+}
+
+section {
+    background-color: orangered;
+}
+
+footer {
+    background-color: blueviolet;
 }
