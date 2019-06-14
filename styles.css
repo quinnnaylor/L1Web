@@ -1,27 +1,40 @@
 html {
-    background-color: aqua;
+    background-image: url(images/bg.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
 }
 
-*{
-   margin: 0px;
-   padding: 0px;
-    
+* {
+    margin: auto;
+    padding: 0px;
+
 }
 
 nav {
-    background-color: blue;
-    margin-top: 10vh 0px;
-    margin-right: ;
-    margin-bottom: ;
-    margin-left: ;
+    margin: auto;
+    width: 70%;
 }
 
 nav a {
-    background-color: limegreen;
+    font-family: sans-serif;
+    width: 18%;
+    display: flex;
+    margin: 5px auto;
+    display: inline-block;
 }
 
 section {
-    background-color: orangered;
+    opacity: 50%;
+    background-color: black;
+    height: 100vh;
+    margin: 5vh auto;
+    width: 70%;
+}
+
+h1 {
+    height: 100vh;
+    margin: 5vh auto;
+    width: 70%;
 }
 
 footer {
