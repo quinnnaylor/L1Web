@@ -5,38 +5,98 @@ html {
 }
 
 * {
-    margin: auto;
+    margin: 0px;
     padding: 0px;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
 }
 
 nav {
-    margin: auto;
-    width: 70%;
+    width: 40%;
+    text-align: right;
+    align-items: flex-end;
+    margin-top: 3.5%;
+    margin-right: 5%;
+    font-size: 110%;
 }
 
 nav a {
     font-family: sans-serif;
-    width: 18%;
-    display: flex;
-    margin: 5px auto;
+    margin: 2% 10px;
     display: inline-block;
+    color: white;
+    text-decoration: blink;
 }
 
 section {
-    opacity: 50%;
+    text-align: left;
+    opacity: 0.5;
     background-color: black;
-    height: 100vh;
+    height: 85vh;
+    width: 80%;
     margin: 5vh auto;
-    width: 70%;
+    color: white;
 }
 
 h1 {
     height: 100vh;
     margin: 5vh auto;
-    width: 70%;
+    width: 20px;
+    color: aqua;
+    text-align: left;
 }
 
-footer {
-    background-color: blueviolet;
+p {
+    height: 10vh;
+    margin: 5vh auto;
+    width: 20px;
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {}
+
+hover afect thingy img {
+    opacity: 0.5;
+    filter: alpha(opacity=50)
+        /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+div {
+    align-content: center;
 }
