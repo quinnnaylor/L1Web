@@ -5,6 +5,7 @@ html {
 }
 
 * {
+    font-family: ;
     margin: 0px;
     padding: 0px;
 }
@@ -12,6 +13,12 @@ html {
 header {
     display: flex;
     justify-content: space-between;
+}
+
+.shape1 {
+    width: 20%;
+    height: 100%;
+    size; 300%;
 }
 
 .logo {
@@ -32,26 +39,26 @@ nav a {
     font-family: sans-serif;
     margin: 2% 10px;
     display: inline-block;
-    color: white;
+    color: rgba(0,162,255);
     text-decoration: blink;
 }
 
 section {
-    text-align: left;
-    opacity: 0.5;
-    background-color: black;
-    height: 85vh;
-    width: 80%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.55);
+    height: 70vh;
+    width: 90%;
     margin: 5vh auto;
+    margin-bottom: 20vh;
     color: white;
 }
 
 h1 {
-    height: 100vh;
-    margin: 5vh auto;
+    height: 10vh;
+    margin-left: 50vh;
     width: 20px;
-    color: aqua;
-    text-align: left;
+    color: rgba(0,162,255);
+    text-align: center;
 }
 
 p {
@@ -61,42 +68,3 @@ p {
     color: aqua;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {}
-
-hover afect thingy img {
-    opacity: 0.5;
-    filter: alpha(opacity=50)
-        /* For IE8 and earlier */
-}
-
-img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-    /* For IE8 and earlier */
-}
-
-div {
-    align-content: center;
-}
