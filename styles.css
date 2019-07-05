@@ -44,13 +44,15 @@ nav a {
 }
 
 section {
-    text-align: center;
+    text-align: right;
     background-color: rgba(0,0,0,0.55);
     height: 70vh;
     width: 90%;
     margin: 5vh;
     margin-bottom: 20vh;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -58,7 +60,6 @@ h1 {
     margin-left: 15vh;
     width: 20px;
     color: rgba(0,162,255);
-    text-align: center;
 }
 
 p {
